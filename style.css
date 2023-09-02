@@ -1,6 +1,5 @@
 :root {
     --clr-primary-400: hsl(158, 36%, 37%);
-    --clr-primary-500: hsl(158, 36%, 17%);
     --clr-secondary-200: hsl(30, 38%, 92%);
 
     --clr-neutral-900: hsl(212, 21%, 14%);
@@ -88,11 +87,7 @@
     font-weight: var(--fw-bold);
     font-size: 0.920;
   }
-  .button:is(:hover, :focus) {
-    background-color: var(--clr-primary-500);
-  }
   .product {
-
     background-color: var(--clr-neutral-100);
     border-radius: 1rem;
     overflow: hidden;
